@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx tsc --project tsconfig.json",
     "start": "node dist/app.js",
-    "test": "jest --coverage"
+    "test": "npx jest --coverage"
   },
   "keywords": [
     "inatel"
