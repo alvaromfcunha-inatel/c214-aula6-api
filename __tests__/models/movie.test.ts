@@ -15,5 +15,5 @@ test('valid movie', () => {
   expect(validMovie.name).toBe(movieTemp.name)
   expect(validMovie.director).toBe(movieTemp.director)
   expect(validMovie.year).toBe(movieTemp.year)
-  expect(validMovie.actors).toBe(movieTemp.actors)
+  expect(validMovie.actors).toStrictEqual(movieTemp.actors)
 })
